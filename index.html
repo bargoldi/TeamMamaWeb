@@ -45,7 +45,6 @@
     }
     
   </script>
-<link rel="stylesheet" href="styles.css">
 <style>
   /* Splash screen styles */
   #splash-screen {
@@ -53,14 +52,10 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 20vw;
-    height: 20vw;
-    max-width: 212px;
-    max-height: 212px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: white;
+    background-color: white; /* Adjust the background color as needed */
     z-index: 9999;
   }
 </style>
@@ -83,7 +78,7 @@
           // registration failed 
           console.log('CustomServiceWorker registration failed: ', err);
         });
-    var serviceWorkerVersion = '"3992062795"';
+    var serviceWorkerVersion = '"1131672511"';
     var scriptLoaded = false;
 
     function loadMainDartJs() {
