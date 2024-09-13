@@ -80,7 +80,7 @@
           // registration failed 
           console.log('CustomServiceWorker registration failed: ', err);
         });*/
-    var serviceWorkerVersion = '"4193877607"';
+    var serviceWorkerVersion = '"1764459488"';
     var scriptLoaded = false;
 
     function loadMainDartJs() {
@@ -94,7 +94,7 @@
       document.body.append(scriptTag);
     }
 
-    if ('serviceWorker' in navigator) {
+    if (false) { //'serviceWorker' in navigator
       // Service workers are supported. Use them.
       window.addEventListener('load', function () {
         // Wait for registration to finish before dropping the <script> tag.
