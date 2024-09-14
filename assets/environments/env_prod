@@ -1,4 +1,4 @@
-serverUrl=https://teamama-server-dev-50b7153d4a6f.herokuapp.com
+serverUrl=https://teamama-server-4cb1d5cab2ef.herokuapp.com
 googlePlacesAPI=AIzaSyCmTKGPy57E7JLSVYcwqMhX3VlSWGtNq7g
 apiKey=AIzaSyBUcxGRtHrs9qUdBH1Iid1PojEB3BteDA8
 authDomain=teammama-44e3c.firebaseapp.com
@@ -7,4 +7,3 @@ storageBucket=teammama-44e3c.appspot.com
 messagingSenderId=711969867168
 appId=1:711969867168:web:eb2b512ea8fa1f008150c5
 language=he
-# PRODUCTION SERVER: https://teamama-server-4cb1d5cab2ef.herokuapp.com
