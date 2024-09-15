@@ -139,6 +139,7 @@ const assetsToCache = [
   "/assets/assets/icons/phone_arrow_out.svg",
   "/assets/assets/icons/back.svg",
   "/assets/assets/icons/box.svg",
+  "/assets/assets/icons/crown.svg",
   "/assets/assets/icons/picture.svg",
   "/assets/assets/icons/shop_circle.svg",
   "/assets/assets/icons/baby.svg",
