@@ -191,6 +191,7 @@ const assetsToCache = [
   "/assets/assets/icons/exclamation.svg",
   "/assets/assets/icons/heart.svg",
   "/assets/assets/icons/search_tint.svg",
+  "/assets/assets/fonts/Rubik-VariableFont_wght.ttf",
   "/assets/assets/fonts/VarelaRound-Regular.ttf",
   "/assets/assets/fonts/OpenSans-VariableFont_wdth,wght.ttf"
 ];
