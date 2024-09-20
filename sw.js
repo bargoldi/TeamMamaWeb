@@ -30,6 +30,7 @@ const assetsToCache = [
   "/assets/assets/images/welcome_vertical.png",
   "/assets/assets/images/business_vertical.png",
   "/assets/assets/images/homescreen_showcase_ltr.svg",
+  "/assets/assets/images/logo_text.svg",
   "/assets/assets/images/not_alone_text_en.svg",
   "/assets/assets/images/allowLocation_ar.svg",
   "/assets/assets/images/pregnant_mother.svg",
