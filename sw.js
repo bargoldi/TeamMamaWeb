@@ -53,6 +53,7 @@ const assetsToCache = [
   "/assets/assets/images/allowLocation_he.svg",
   "/assets/assets/images/not_alone.png",
   "/assets/assets/images/homescreen_showcase_rtl.svg",
+  "/assets/assets/images/iphone_frame.png",
   "/assets/assets/images/business_activity.svg",
   "/assets/assets/images/business.png",
   "/assets/assets/images/appicon.jpg",
