@@ -124,7 +124,7 @@
           // registration failed 
           console.log('CustomServiceWorker registration failed: ', err);
         });*/
-    var serviceWorkerVersion = '"3398136629"';
+    var serviceWorkerVersion = '"3314386460"';
     var scriptLoaded = false;
 
     function loadMainDartJs() {
@@ -193,6 +193,24 @@
     window.addEventListener('flutter-first-frame', function () {
       document.getElementById('splash-screen').style.display = 'none';
     });
+  </script>
+  <script>
+    if (
+      navigator.userAgent.indexOf("Safari") !== -1 &&
+      navigator.userAgent.indexOf("Chrome") === -1
+    ) {
+      var originalGetContext = HTMLCanvasElement.prototype.getContext;
+      HTMLCanvasElement.prototype.getContext = function () {
+        var contextType = arguments[0];
+        if (contextType === "webgl2") {
+          return;
+        }
+        return originalGetContext.apply(
+          this,
+          [contextType].concat(Array.prototype.slice.call(arguments, 1)),
+        );
+      };
+    }
   </script>
 </body>
 </html>
