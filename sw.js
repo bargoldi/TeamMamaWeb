@@ -9,6 +9,7 @@ const assetsToCache = [
   "/logo_title.svg",
   "/favicon.ico",
   "/index.html",
+  "/meta_updater.js",
   "/script.js",
   "/favicon.png",
   "/icons/Icon-192.png",
