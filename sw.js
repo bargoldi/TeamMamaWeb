@@ -154,6 +154,7 @@ const assetsToCache = [
   "/assets/assets/icons/xmark_circle.svg",
   "/assets/assets/icons/phone_xmark.svg",
   "/assets/assets/icons/star.svg",
+  "/assets/assets/icons/browser.svg",
   "/assets/assets/icons/plus_circle.svg",
   "/assets/assets/icons/shopping_bag_plus.svg",
   "/assets/assets/icons/map_pin.svg",
