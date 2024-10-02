@@ -22,7 +22,6 @@ const assetsToCache = [
   "/manifest.webmanifest",
   "/sw.js",
   "/assets/assets/screenshots/1242X2688_2.png",
-  "/assets/assets/screenshots/1242X2688.png",
   "/assets/assets/screenshots/1242X2688_3.png",
   "/assets/assets/screenshots/1242X2688_1.png",
   "/assets/assets/screenshots/1290x2796_1.png",
