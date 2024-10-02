@@ -10,6 +10,7 @@ const assetsToCache = [
   "/favicon.ico",
   "/index.html",
   "/.well-known/apple-app-site-association",
+  "/.well-known/assetlinks.json",
   "/meta_updater.js",
   "/script.js",
   "/favicon.png",
