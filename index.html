@@ -104,6 +104,20 @@
   </div>
 
   <script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Check if the device is an iPhone
+      const isIphone = /iPhone/i.test(navigator.userAgent);
+      
+      if (isIphone) {
+        // Redirect to the App Store URL
+        window.location.href = "https://apps.apple.com/il/app/teammama/id6736394828?l=he";
+      }
+    });
+  </script>
+  
+
+
+  <script>
     window.onload = function() {
       setTimeout(function() {
         document.querySelector('.spinner').style.display = 'block';
@@ -124,7 +138,7 @@
           // registration failed 
           console.log('CustomServiceWorker registration failed: ', err);
         });*/
-    var serviceWorkerVersion = '"1732187739"';
+    var serviceWorkerVersion = '"245467204"';
     var scriptLoaded = false;
 
     function loadMainDartJs() {
